@@ -1,0 +1,24 @@
+name: env_ksp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - libpython 
+  - mkl-service 
+  - m2w64-toolchain 
+  - python-graphviz 
+  - pip
+  - pip:
+    - numpy
+    - scipy
+    - numba 
+    - pymc3
+    - streamlit
+    - sklearn
+    - xgboost
+    - plotly
+    - xlsxwriter
+    - openpyxl
+    - loguru
+    - fedot
